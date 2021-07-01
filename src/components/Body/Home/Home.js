@@ -48,7 +48,7 @@ export default function Home() {
                         <div className="top-movers-desc">Here is the list of top 10 movers today</div>
                         {
                             topmovers.map(coin => 
-                                <div className="col-sm-3 col-xs-6 top-mover-card"><img src={coin.logo_url}/></div>
+                                <div className="col-sm-3 col-xs-6 top-mover-card"><img src={coin.logo_url} alt="top-mover"/></div>
                             )
                         }
                         <div className="pad-50"></div>
