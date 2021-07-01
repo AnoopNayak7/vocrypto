@@ -9,7 +9,7 @@ export default function Home() {
 
     const [allcoin, setAllcoin] = useState([])
 
-    useEffect( async ()=> {
+    useEffect( ()=> {
         const getAllcoin = async () => {
             const res = await axios.get('https://api.nomics.com/v1/currencies/ticker?key=65bc0b39fc33dbdabe76b9b60d192ff3ed2b19d2&interval=1d,30d&convert=INR')
             console.log(res)
