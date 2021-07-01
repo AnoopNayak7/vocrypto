@@ -1,0 +1,32 @@
+.about-page-header{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.stack-sec-head{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(7, 7, 41);
+    font-family: 'Manrope', sans-serif;
+}
+
+.ui-element-head{
+    font-size: 26px;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Manrope', sans-serif;
+}
+
+.box-sdw{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+}

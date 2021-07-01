@@ -1,0 +1,208 @@
+.Homepage{
+    width: 100%;
+}
+
+.Home-banner{
+    width: 100%;
+    background-image: url('../../../images/banner.png');
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.banner-head{
+    margin-top: 15%;
+    font-size: 55px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 65px;
+    color: rgb(7, 7, 56);
+}
+
+.banner-head span{
+    color: rgb(255, 230, 0);
+}
+
+.banner-desc{
+    margin-top: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: rgb(85, 83, 83);
+}
+
+.banner-btn{
+    background-color: rgb(7, 7, 56);
+    color: #fff;
+    padding: 13px 35px;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    
+}
+
+.banner-btn:hover{
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.m-t-100{
+    margin-top: 100px;
+}
+
+.m-t-150{
+    margin-top: 150px;
+}
+
+.m-t-50{
+    margin-top: 50px;
+}
+
+.top-movers{
+    background-color: rgb(7, 7, 56);
+    
+}
+
+.top-movers-head{
+    color: rgb(255, 255, 38);
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.top-movers-desc{
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.real-time-head{
+    color: rgb(5, 10, 54);
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.mockup-img{
+    width: 100%;
+    height: 100%;
+}
+
+.all-sec-count h2{
+    font-size: 55px;
+    font-weight: 800;
+    color: rgb(14, 17, 156);
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.all-sec-count p{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.top-mover-card{
+    padding-top: 30px; 
+}
+
+.top-mover-card img{
+    width: 75px;
+    height: 75px;
+    
+}
+
+.all-movercards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5%;
+}
+
+.coin-img{
+    width: 55px;
+    height: 55px;
+}
+
+.coin-price-card{
+    margin-top: 55px;
+}
+
+.card-content-flex{
+    display: flex;
+    
+}
+
+.coin-name{
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    color: orangered;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.price{
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    padding-top: 8px;
+    color: black;
+}
+
+.price span{
+    color: rgb(82, 165, 4);
+}
+
+.view-more{
+    text-align: center;
+    font-size: 18px;
+}
+
+.view-more a{
+    color: rgb(36, 34, 34);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mockup-img {
+        width: 100%;
+        height: 100%;
+        margin-top: 8%;
+    }
+
+    .banner-desc {
+        text-align: center;
+    }
+
+    .banner-btn{
+        display : block;text-align : center;
+    }
+
+    .all-movercards{
+        margin: 0px 15px;
+    }
+
+    .Home-banner {
+        width: 100%;
+
+        height: 70vh;
+        background-position: unset;
+        background-repeat: no-repeat;
+    }
+
+    .banner-head {
+        text-align: center;
+        color: rgb(7, 7, 56);
+    }
+}
+
